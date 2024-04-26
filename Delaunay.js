@@ -1,4 +1,4 @@
-﻿// JavaScript版ドロネー分割．ロバストではない
+
 var KLIB = KLIB || {};
 
 KLIB.Math = function() {
@@ -73,7 +73,7 @@ KLIB.Delaunay = function() {
 }
 KLIB.Delaunay.prototype = {
 
-	// [x1, y1, x2, y2, ....,] の羅列で与えること
+	
 	apply : function( pois ) {
 
 		var dictTri = new KLIB.DictTriangle();
@@ -88,7 +88,7 @@ KLIB.Delaunay.prototype = {
 		}
 		//this.shuffle(index);
 	
-		// 初期三角形の作成
+		
 		var maxval = 0;
 		var findip = 0;
 		for( it=2; it<size; ++it ) {
